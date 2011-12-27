@@ -1,0 +1,15 @@
+[
+	{ "keys": ["ctrl+shift+-"], "command": "undo" },
+	{ "keys": ["super+shift+z"], "command": "redo" },
+	{ "keys": ["alt+/"], "command": "auto_complete" },
+	{ "keys": ["alt+x"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+	{ "keys": ["alt+/"], "command": "replace_completion_with_auto_complete", "context":
+		[
+			{ "key": "last_command", "operator": "equal", "operand": "insert_best_completion" },
+			{ "key": "setting.tab_completion", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["alt+;"], "command": "toggle_comment", "args": { "block": false } },
+	{ "keys": ["alt+f"], "command": "move", "args": {"by": "subwords", "forward": true} },
+	{ "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} }
+]

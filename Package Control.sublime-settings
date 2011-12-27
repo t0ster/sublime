@@ -1,0 +1,12 @@
+{
+	"auto_upgrade_last_run": 1324495264,
+	"installed_packages":
+	[
+		"Alignment",
+		"Package Control",
+		"SublimeCodeIntel",
+		"SublimeLinter",
+		"Theme - Soda",
+		"WordHighlight"
+	]
+}

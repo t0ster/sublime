@@ -1,0 +1,6 @@
+<snippet>
+    <content><![CDATA[logger = logging.getLogger(__name__)]]></content>
+    <tabTrigger>logger</tabTrigger>
+    <scope>source.python</scope>
+    <description>logger = logging.getLogger(__name__)</description>
+</snippet>
