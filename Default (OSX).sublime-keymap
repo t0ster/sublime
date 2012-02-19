@@ -11,5 +11,8 @@
 	},
 	{ "keys": ["alt+;"], "command": "toggle_comment", "args": { "block": false } },
 	{ "keys": ["alt+f"], "command": "move", "args": {"by": "subwords", "forward": true} },
-	{ "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} }
+	{ "keys": ["alt+b"], "command": "move", "args": {"by": "subwords", "forward": false} },
+	{ "keys": ["ctrl+c", "g"], "command": "goto_python_definition" },
+	{ "keys": ["ctrl+x", "k", "enter"], "command": "close" },
+	{ "keys": ["alt+r"], "command": "reveal_in_side_bar" }
 ]
