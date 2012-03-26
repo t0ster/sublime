@@ -1,9 +1,11 @@
 {
-	"auto_upgrade_last_run": 1329667777,
+	"auto_upgrade_last_run": 1332273255,
 	"installed_packages":
 	[
 		"Alignment",
 		"CoffeeScript",
+		"Djaneiro",
+		"Git",
 		"Package Control",
 		"SublimeCodeIntel",
 		"SublimeLinter",
