@@ -1,22 +1,20 @@
 {
 	"color_scheme": "Packages/User/Monokai Soda.tmTheme",
-	"theme": "Soda Dark.sublime-theme",
+	"detect_indentation": true,
 	"font_face": "Meslo LG L DZ",
 	"font_size": 18.0,
 	"highlight_line": true,
 	"ignored_packages":
 	[
 		"Vintage",
-		// For some reason SublimeRope breaks SublimeCodeIntel
 		"SublimeRope"
 	],
+	"indent_to_bracket": true,
 	"rulers":
 	[
 		80
 	],
-	"tab_size": 4,
-	"detect_indentation": true,
+	"theme": "Soda Dark.sublime-theme",
 	"translate_tabs_to_spaces": true,
-	"trim_automatic_white_space": true,
 	"trim_trailing_white_space_on_save": true
 }

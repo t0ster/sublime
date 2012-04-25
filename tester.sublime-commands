@@ -1,0 +1,10 @@
+[
+    {
+        "caption": "Tester: Create Unit Test File",
+        "command": "create_unit_test_file"
+    },
+    {
+        "caption": "Tester: Create Functional/Regression Test File",
+        "command": "create_functional_test_file"
+    }
+]

@@ -1,0 +1,4 @@
+{
+    "cmd": ["$project_path/manage.py", "test", "$file"],
+    "file_regex": "File \"(.+?)\", line (\\d+)"
+}
